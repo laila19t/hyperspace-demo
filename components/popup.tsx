@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 export default function Popup({isOpen, setIsOpen,data}: any) {
 
     function handleClose(){
@@ -10,7 +10,7 @@ export default function Popup({isOpen, setIsOpen,data}: any) {
            <div className="flex justify-between flex-col items-center">
             <h1 className="mb-3 text-[20px] font-bold text-[#020229]">Thanks for clicking!</h1>
             <h2 className="mb-3 w-3/4 text-center text-[17px] font-semibold text-[#020229]">Enjoy this picture sent to you straight from a server component</h2>
-            <div className="mb-4 rounded-lg w-[230px] h-[230px] flex justify-center align-center bg-[#d7f200]"><img src={data} className="rounded-lg bg-cover border-4 border-[#d7f200]"/> </div>
+            <div className="mb-4 rounded-lg w-[230px] h-[230px] flex justify-center align-center bg-[#d7f200]"> <Image src={data} alt="colorful server Image" width={230} height={230} className="rounded-lg bg-cover border-4 border-[#d7f200]" /></div>
             <button className=" text-[#020229] bg-[#d7f200] text-[17px] px-5 py-1 font-semibold rounded-lg" onClick={handleClose}>Close</button>
            </div>
            

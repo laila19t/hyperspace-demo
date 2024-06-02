@@ -40,7 +40,7 @@ export default function Home({ imageUrl }: any) {
             <h1 className="mb-6 lg:-mt-20 lg:mb-3 text-[30px] lg:text-[40px] text-center font-bold ">Welcome to Hyperspace!</h1>
             <button onClick={handleClick} className="mb-6 lg:mb-10 text-[#020229] px-4 py-4 bg-[#FFFFFF] text-[20px] font-bold rounded-lg ">Click for the pop-up</button>
           </div>
-          <Link href="/creative" className="text-[17px] text-right   text-[#FFFFFF] underline underline-offset-4 font-bold">Don't forget to check out the creative page </Link>
+          <Link href="/creative" className="text-[17px] text-right   text-[#FFFFFF] underline underline-offset-4 font-bold">Don&apos;t forget to check out the creative page </Link>
         </div>
 
       </div>
